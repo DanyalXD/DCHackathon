@@ -23,16 +23,27 @@ http.createServer(function(request, response) {
         response.write('Connection Made \n');
         if (err) {
             response.write('Unable to connect to the mongoDB server. Error:' + err + "\n");
+            //Close connection
+            db.close();
         } else {
             //HURRAY!! We are connected. :)
             response.write('Connection established to' + url +"\n");
+            var collection = db.collection('users');
+            // Get the documents collection
+            collection.update({name: 'modulus user'}, {$set: {enabled: false}}, function (err, numUpdated) {
+                if (err) {
+                    response.write(err);
+                } else if (numUpdated) {
+                    response.write ('Updated Successfully : ' + numUpdated + "\n");
+                } else {
+                    response.write ('No document found with defined "find" criteria!');
+                }
+                db.close;
+                response.end('DB closed');
+            });
 
-            // do some work here with the database.
 
-            //Close connection
-            db.close();
         }
-        response.end('Finished, Connection closed \n');
     });
 
 }).listen(port);
