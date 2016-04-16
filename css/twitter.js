@@ -1,3 +1,4 @@
+
 var Twitter = require('twitter');
 var http = require('http');
 var port = process.env.PORT || 1337;
@@ -23,6 +24,4 @@ http.createServer(function(request, response) {
 
         response.end(JSON.stringify(json));
     });
-}).listen(port);
-
-
+}).listen(port)
