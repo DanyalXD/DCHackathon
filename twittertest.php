@@ -3,6 +3,7 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Consuming Twitter Webserver</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <script>
     window.onload = function() {
         var xhttp = new XMLHttpRequest();
@@ -25,16 +26,18 @@
     }
 
 </script>
-
-    
 </head>
 <body>
-<header>
-    <h1>Header Div</h1>
-</header>
+	<div id = "nav">
+		<ul>
+			<li><a href = "#"><img src="img/logo.png" alt="Smiley face"></a></li>
+			<li><h1>Hey, how are you feeling today?!</h1></li>
+		</ul>
+	</div>
+
 <main>
-    <h2> Main content </h2>
 </main>
+
 <aside id="twitter" >
 
 </aside>
