@@ -13,7 +13,7 @@
                 var tweetstring = "";
                 for (var i =0; i< tweets.length ; i++)
 				{
-					tweetstring += "<div id = "timeline">";
+					tweetstring += "<div id = 'timeline'>";
 				    tweetstring += "<h1>" + tweets[i].name + "</h1> </br>";
 				    tweetstring += "<p>"  + tweets[i].text + "</p>"
 				    tweetstring += "</div>";
