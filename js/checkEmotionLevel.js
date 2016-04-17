@@ -16,6 +16,18 @@ function checkEmotionLevel() {
 			case 3:
 				document.body.style.background = "#63B9CB";
 				break;
+			case 4:
+				document.body.style.background = "#A6D7E1";
+				break;
+			case 5:
+				document.body.style.background = "#90CDDA";
+				break;
+			case 6:
+				document.body.style.background = "#79C3D2";
+				break;
+			case 7:
+				document.body.style.background = "#63B9CB";
+				break;
 			}
 	}
 }
