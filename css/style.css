@@ -198,6 +198,7 @@ float: left;
 	background-color: #e0e0e0;
 	width: 100vh;
 	height: auto;
+	float: left;
 	margin-left: 25%;
 	margin-top: 2%;
 }
