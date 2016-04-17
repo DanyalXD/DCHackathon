@@ -5,7 +5,7 @@
     <title>Consuming Twitter Webserver</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script>
-    window.onload = function() {
+   	window.onload = function() {
         var xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function() {
             if (xhttp.readyState == 4 && xhttp.status == 200) {
@@ -39,10 +39,13 @@
 <main>
 </main>
 
+
 <aside id="twitter" >
 </aside>
 
+<div id ="spotify1"></div>
 <iframe id = "spotify" src="https://embed.spotify.com/?uri=spotify%3Auser%3Adanyalc95%3Aplaylist%3A6x1R9eyNJTQmXaQKc4cfYX" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+<div id = "spotify2"></div>
 
 </body>
 </html>
