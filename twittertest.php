@@ -31,7 +31,6 @@
 	<div id = "nav">
 		<ul>
 			<li><a href = "#"><img src="img/logo.png" alt="Smiley face"></a></li>
-			<li><h1>Hey, how are you feeling today?!</h1></li>
 		</ul>
 	</div>
 
