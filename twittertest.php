@@ -40,9 +40,10 @@
 </main>
 
 <aside id="twitter" >
-
-<iframe id = "spotify" src="https://embed.spotify.com/?uri=spotify:trackset:PREFEREDTITLE:5Z7ygHQo02SUrFmcgpwsKW,1x6ACsKV4UdWS2FMuPFUiT,4bi73jCM02fMpkI11Lqmfe" frameborder="0" allowtransparency="true"></iframe>
-
 </aside>
+
+<iframe id = "spotify" src="https://embed.spotify.com/?uri=spotify%3Auser%3Adanyalc95%3Aplaylist%3A6x1R9eyNJTQmXaQKc4cfYX" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+
 </body>
 </html>
+
