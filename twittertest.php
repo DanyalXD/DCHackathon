@@ -13,7 +13,7 @@
                 var tweetstring = "";
                 for (var i =0; i< tweets.length ; i++)
 				{
-					tweetstring += "<div id = 'timeline'>";
+					tweetstring += "<div id = 'timeline'>';
 				    tweetstring += "<h1>" + tweets[i].name + "</h1> </br>";
 				    tweetstring += "<p>"  + tweets[i].text + "</p>"
 				    tweetstring += "</div>";
@@ -40,6 +40,8 @@
 </main>
 
 <aside id="twitter" >
+
+<iframe id = "spotify" src="https://embed.spotify.com/?uri=spotify:trackset:PREFEREDTITLE:5Z7ygHQo02SUrFmcgpwsKW,1x6ACsKV4UdWS2FMuPFUiT,4bi73jCM02fMpkI11Lqmfe" frameborder="0" allowtransparency="true"></iframe>
 
 </aside>
 </body>
