@@ -1,7 +1,7 @@
 function checkEmotionLevel() {
 
 
-	var x = getCookie("emotionLevel")
+	var x = getCookie("emotionLevel");
 	for(i = 0; i != x; i++){
 			switch(i){
 			case 0:
