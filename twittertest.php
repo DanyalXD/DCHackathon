@@ -11,7 +11,7 @@
                 document.getElementById("twitter").innerHTML = xhttp.responseText;
             }
         };
-        xhttp.open("GET", "http://nodedchack.azurewebsites.net/", true);
+        xhttp.open("GET", "http://nodedchack.azurewebsites.net//", true);
         xhttp.send();
     }
 
