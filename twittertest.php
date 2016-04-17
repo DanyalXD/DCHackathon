@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>Consuming Twitter Webserver</title>
+    <title>Mood Page</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script>
    	window.onload = function() {
