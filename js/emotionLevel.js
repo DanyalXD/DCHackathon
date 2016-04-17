@@ -30,27 +30,24 @@ function Happy() {
 function Sad() {
 
 	document.cookie = 'emotionLevel=5';
-	alert(document.cookie);
 
 }
 
 function qSad() {
 
 	document.cookie = 'emotionLevel=6';
-	alert(document.cookie);
-
+	
 }
 
 function vSad() {
 
 	document.cookie = 'emotionLevel=7';
-	alert(document.cookie);
+
 
 }
 
 function sSad() {
 
 	document.cookie = 'emotionLevel=8';
-	alert(document.cookie);
 
 }
