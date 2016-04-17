@@ -46,9 +46,10 @@
 <main>
 </main>
 
-<div id = "photo">
+<div id = "profilePhoto">
 	<img src="img/dog.jpg" alt="Smiley face">
 </div>
+
 
 <aside id="twitter" >
 </aside>
