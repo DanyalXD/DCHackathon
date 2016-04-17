@@ -192,3 +192,12 @@ float: left;
 	margin-left: 12vh;
 
 }
+
+#timeline{
+
+	background-color: #e0e0e0;
+	width: 100vh;
+	height: auto;
+	margin-left: 25%;
+	margin-top: 2%;
+}

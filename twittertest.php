@@ -13,8 +13,10 @@
                 var tweetstring = "";
                 for (var i =0; i< tweets.length ; i++)
 				{
-				    tweetstring += "<h3>" + tweets[i].name + "</h3> </br>";
+					tweetstring += "<div id = "timeline">";
+				    tweetstring += "<h1>" + tweets[i].name + "</h1> </br>";
 				    tweetstring += "<p>"  + tweets[i].text + "</p>"
+				    tweetstring += "</div>";
 				}
 				document.getElementById("twitter").innerHTML = tweetstring;
 
