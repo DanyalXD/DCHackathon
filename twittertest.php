@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <title>Mood Page</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script type='text/javascript' src='js/emotionLevel.js'></script>
+	<script type='text/javascript' src='js/getCookie.js'></script>
+	<script type='text/javascript' src='js/checkEmotionLevel.js'></script>
+	<script type='text/javascript' src='js/settings.js'></script>
+
     <script>
    	window.onload = function() {
         var xhttp = new XMLHttpRequest();
@@ -29,10 +35,11 @@
 
 </script>
 </head>
-<body>
+<body onload="checkEmotionLevel()">
 	<div id = "nav">
 		<ul>
 			<li><a href = "#"><img src="img/logo.png" alt="Smiley face"></a></li>
+			<li><h1>Dans Page</h1></li>
 		</ul>
 	</div>
 
