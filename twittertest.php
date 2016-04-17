@@ -10,15 +10,8 @@
 	<script type='text/javascript' src='js/checkEmotionLevel.js'></script>
 	<script type='text/javascript' src='js/settings.js'></script>
 	<script src="https://maps.googleapis.com/maps/api/js"async defer></script>
-    <script>
-      function initMap() {
-        var mapDiv = document.getElementById('map');
-        var map = new google.maps.Map(mapDiv, {
-          center: {lat: 44.540, lng: -78.546},
-          zoom: 8
-        });
-      }
-    </script>
+	
+
     <script>
    	window.onload = function() {
         var xhttp = new XMLHttpRequest();
@@ -59,16 +52,6 @@
 	<img src="img/dog.jpg" alt="Smiley face">
 </div>
 
-<div id="map"></div>
-    <script>
-      function initMap() {
-        var mapDiv = document.getElementById('map');
-        var map = new google.maps.Map(mapDiv, {
-          center: {lat: 44.540, lng: -78.546},
-          zoom: 8
-        });
-      }
-    </script>
 
 <aside id="twitter" >
 </aside>
